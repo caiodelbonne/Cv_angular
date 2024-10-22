@@ -1,0 +1,24 @@
+.card-cursos {
+  display: block;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Cada card ocupa 30% da largura do container */
+  margin: 10px; /* Adiciona espaçamento ao redor dos cards */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1084px) {
+  .card-cursos {
+    width: 45%; /* Em telas médias, dois cards por linha */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-cursos {
+    width: 100%; /* Em telas pequenas, um card por linha */
+  }
+}

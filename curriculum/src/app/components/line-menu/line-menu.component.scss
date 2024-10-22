@@ -1,0 +1,15 @@
+.line {
+  background-color: black;
+  color: #FFF;
+  height: 50px;
+  display: flex; /* Centraliza o conteúdo vertical e horizontalmente */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  padding: 10px 0; /* Adiciona espaço acima e abaixo do texto */
+  letter-spacing: 10PX;
+  text-transform: uppercase;
+  h2 {
+    margin: 0; /* Remove qualquer margem padrão do h2 */
+    text-align: center;
+  }
+}

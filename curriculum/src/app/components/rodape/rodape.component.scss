@@ -1,0 +1,22 @@
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(27, 25, 25, 0.264);
+  padding: 20px;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+  }
+
+}
+.rodape-contato {
+  margin-right: 30px;
+}

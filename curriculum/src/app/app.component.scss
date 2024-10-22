@@ -1,0 +1,6 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 20px;
+}
